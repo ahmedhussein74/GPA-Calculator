@@ -46,7 +46,7 @@ function cal(){
 
     let gpa = points / totalHours
 
-    gpa = Math.round(gpa)
+    gpa = gpa.toFixed(2)
     
     document.querySelector("#subjects").innerHTML += 
         `<div class="msg rounded d-flex justify-content-center align-items-center mt-2">Your GPA is : ${gpa}</div>`
