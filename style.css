@@ -1,0 +1,89 @@
+nav{
+    height: 50px;
+    font-size: 25px;
+}
+.form1{
+    width: 500px;
+    height: 50px;
+    background-color: #eee;
+}
+#subNum{
+    width: 225px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+#subAdd{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+}
+#subjects{
+    width: 500px;
+}
+#subjects div{
+    background-color: #eee;
+}
+.sub, .hour{
+    border: none;
+    outline: none;
+}
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+.msg{
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #eee;
+}
+@media screen and (max-width:450px) 
+{
+    nav{
+        height: 30px;
+        font-size: 18px;
+    }
+    .form1{
+        width: 300px;
+        height: 40px;
+    }
+    #subNum{
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+    #subAdd{
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+    }
+    #subjects{
+        width: 300px;
+    }
+    .sub{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .hour{
+        width: 120px;
+        height: 20px;
+        font-size: 12px;
+    }
+    button{
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+        padding: 0;
+    }
+    .msg{
+        width: 300px;
+        height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
